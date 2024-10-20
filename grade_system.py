@@ -1,11 +1,11 @@
 #Code written by taha mirza
 maths = int(input("Enter marks obtained in Maths :"))
-english = int(input("Enter marks obtained in english :"))
-urdu  = int(input("Enter marks obtained in urdu :"))
-social = int(input("Enter marks obtained in social :"))
-science = int(input("Enter marks obtained in science :"))
+physics = int(input("Enter marks obtained in physics :"))
+computer = int(input("Enter marks obtained in computer :"))
+chemistry= int(input("Enter marks obtained in chemistry :"))
+biology = int(input("Enter marks obtained in biology :"))
 
-total = maths + english + urdu + social + science
+total = maths + physics + computer + chemistry + biology
 percentage = total/500*100
 
 if percentage >= 33 :
