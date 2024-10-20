@@ -4,6 +4,12 @@ a = float(input("enter coefficient a:"))
 b = float(input("enter coefficient b:"))
 c = float(input("enter coefficient c:"))
 D= (b**(2) - (4*a*c))**(1/2)
+if D > 0:
+    print("roots are real and distinct")
+elif D== 0:
+    print("roots are real and same")
+elif D < 0:
+    print("roots are complex or imaginary")
 root1= (-b + D)/ (2*a)
 root2= (-b - D)/ (2*a)
 print("root1:", root1)
