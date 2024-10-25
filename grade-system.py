@@ -7,7 +7,7 @@ biology = int(input("Enter marks obtained in biology :"))
 total = maths + physics + computer + chemistry + biology
 percentage = total/500*100
 
-if percentage >= 33 :
+if percentage >= 40 :
         print(f"Pass with {percentage} %")
         if percentage >= 90 :
             print("Grade A")
